@@ -1,14 +1,12 @@
 {
     "name": "Guillaume Sablayrolles",
     "photoUrl": "favicon.svg",
-    "location": "City, Country",
-    "availability": "Available for hire",
-    "description": "A brief, compelling introduction about who you are and what you do. Mention your core philosophy, your passion for building digital products, and your drive for creating efficient, high-impact solutions.",
-    "descriptionHtml": "A brief, compelling introduction about who you are and what you do. Mention your core <span class='text-accent font-bold'>philosophy</span>, your passion for building digital products, and your drive for creating <span class='text-accent font-bold'>efficient</span>, <span class='text-accent font-bold'>high-impact</span> solutions.",
+    "location": "France, Toulouse",
+    "availability": "Alternant",
+    "descriptionHtml": "Eleve en dernière année à l'<span class='text-accent font-bold'>ENSEEIHT</span> et alternant chez <span class='text-accent font-bold'>Magellium Artal Group</span>. Je travaille dans l'équipe <span class='text-accent font-bold'>Farmstar</span> sur un projet <span class='text-accent font-bold'>Micro-services</span>, <span class='text-accent font-bold'>Cloud</span> et <span class='text-accent font-bold'>Agiles</span>",
     "webpageTitle": "Guillaume Sablayrolles",
     "resumeUrl": "https://example-files.online-convert.com/document/pdf/example.pdf",
-    "jobTitle": "Student",
-    "siteUrl": "https://your-domain.com",
+    "jobTitle": "Alternant",
     "lang": "fr",
     "_comment": "Add your social links below. Leave the 'url' empty to hide the icon. Set 'showInContact' to true or false to control if it appears in the Contact section.",
     "socials": [

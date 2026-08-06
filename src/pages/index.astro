@@ -19,25 +19,20 @@ interface Social {
 interface ProfileData {
     name: string;
     webpageTitle: string;
-    description?: string;
     jobTitle?: string;
-    siteUrl?: string;
     lang?: string;
     socials: Social[];
 }
 
 let data = localData as ProfileData;
 
-const { name, webpageTitle, description, jobTitle, siteUrl, lang, socials } =
-    data;
+const { name, webpageTitle, jobTitle, lang, socials } = data;
 ---
 
 <Layout
     title={webpageTitle}
     personName={name}
-    description={description}
     jobTitle={jobTitle}
-    siteUrl={siteUrl}
     lang={lang}
     socials={socials}
 >

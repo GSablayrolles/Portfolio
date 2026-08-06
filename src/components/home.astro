@@ -14,7 +14,6 @@ interface Social {
 interface ProfileData {
     name: string;
     photoUrl: string;
-    description: string;
     descriptionHtml: string;
     resumeUrl: string;
     jobTitle?: string;
@@ -28,7 +27,6 @@ let data = localData as ProfileData;
 const {
     name,
     photoUrl,
-    description,
     descriptionHtml,
     resumeUrl,
     jobTitle,
@@ -78,10 +76,6 @@ const profileImage = await resolveAssetImage(photoUrl);
         </div>
     </div>
 
-    <div class="reveal-content" style="animation-delay: 200ms;">
-        <p class="font-body font-light text-gray leading-relaxed">Hello, I'm</p>
-    </div>
-
     <div
         class="px-6 sm:px-14 md:px-18 lg:px-40 max-w-360 mx-auto relative z-0 reveal-content"
         style="animation-delay: 300ms;"
@@ -124,7 +118,7 @@ const profileImage = await resolveAssetImage(photoUrl);
         }
         <p
             class="text-gray font-body text-lg leading-relaxed mt-6"
-            set:html={descriptionHtml || description}
+            set:html={descriptionHtml}
         />
     </div>
 
