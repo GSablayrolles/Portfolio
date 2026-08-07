@@ -4,9 +4,11 @@ import careerData from "../data/career.json";
 import CareerCard from "./career-card.astro";
 
 const getItemMeta = (type: string) => {
-    if (type === "Student")
+    if (type === "Etudiant")
         return { icon: "mdi:school", category: "education" };
-    if (type === "Internship")
+    if (type === "Bénévole")
+        return { icon: "mdi:school", category: "association" };
+    if (type === "Alternant" || type === "Stagiaire")
         return { icon: "mdi:briefcase-outline", category: "work" };
     return { icon: "mdi:briefcase", category: "work" };
 };
@@ -38,13 +40,16 @@ const getItemMeta = (type: string) => {
             <!-- Filter chips -->
             <div class="flex gap-2 flex-wrap shrink-0">
                 <button class="career-filter-btn active" data-filter="all"
-                    >All</button
+                    >Tout</button
                 >
                 <button class="career-filter-btn" data-filter="work">
-                    <Icon name="mdi:briefcase" class="w-3 h-3" /> Work
+                    <Icon name="mdi:briefcase" class="w-3 h-3" /> Professionnel
                 </button>
                 <button class="career-filter-btn" data-filter="education">
-                    <Icon name="mdi:school" class="w-3 h-3" /> Education
+                    <Icon name="mdi:school" class="w-3 h-3" /> Scolaire
+                </button>
+                <button class="career-filter-btn" data-filter="association">
+                    <Icon name="mdi:school" class="w-3 h-3" /> Associatif
                 </button>
             </div>
         </div>
