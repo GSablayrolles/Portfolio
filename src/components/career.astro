@@ -6,9 +6,9 @@ import CareerCard from "./career-card.astro";
 const getItemMeta = (type: string) => {
     if (type === "Etudiant")
         return { icon: "mdi:school", category: "education" };
-    if (type === "Bénévole")
-        return { icon: "mdi:school", category: "association" };
-    if (type === "Alternant" || type === "Stagiaire")
+    if (type === "Bénévolat")
+        return { icon: "mdi:volunteer", category: "association" };
+    if (type === "Alternance" || type === "Stage")
         return { icon: "mdi:briefcase-outline", category: "work" };
     return { icon: "mdi:briefcase", category: "work" };
 };

@@ -1,27 +1,86 @@
 [
-  {
-    "company": "Demo Company",
-    "role": "Lead Software Engineer",
-    "period": "Oct 2025 - Present",
-    "type": "Full time job",
-    "description": "Leading cross-platform application development using Flutter and Python FastAPI. Focused on scalable system design, API integrations, and team leadership.",
-    "skills": ["Team Leadership", "System Architecture", "Flutter", "FastAPI"]
-  },
-  {
-    "company": "Demo Solutions Ltd",
-    "url": "https://example.com",
-    "role": "Full-stack Developer",
-    "period": "Sep 2023 - Sep 2025",
-    "type": "Full time job",
-    "description": "Specializing in Business Research Methods and Strategic HRM. Applying analytical frameworks to human capital management.",
-    "skills": ["React", "Node.js", "PostgreSQL", "Docker"]
-  },
-  {
-    "company": "Demo University of Tech",
-    "role": "BSc in Computer Science",
-    "period": "Jun 2020 - Jun 2024",
-    "type": "Student",
-    "description": "Graduated with honors. Focused on data structures, algorithm optimization, software architecture, and database systems.",
-    "skills": ["Data Structures", "Algorithms", "OOP", "DBMS"]
-  }
+    {
+        "company": "Magellium Artal Group",
+        "url": "https://magellium.com",
+        "role": "Alternant Full-stack",
+        "period": "Sep 2026 - Maintenant",
+        "type": "Alternance",
+        "description": "Stagaire dans l'équipe FARMSTAR. Développement d'une application d'agriculture de précision. Architecture Micro-services, Cloud et Agiles",
+        "skills": [
+            "Cloud",
+            "API REST",
+            "Docker",
+            "Spring",
+            "Angular"
+        ]
+    },
+    {
+        "company": "Magellium Artal Group",
+        "url": "https://magellium.com",
+        "role": "Stagiare Full-stack",
+        "period": "Sep 2025 - Fev 2026",
+        "type": "Stage",
+        "description": "Stagaire dans l'équipe FARMSTAR. Développement d'une application d'agriculture de précision. Architecture Micro-services, Cloud et Agiles",
+        "skills": [
+            "Cloud",
+            "API REST",
+            "Docker",
+            "Spring",
+            "Angular"
+        ]
+    },
+    {
+        "company": "Decathlon",
+        "role": "Vendeur omni-commerçant",
+        "url": "https://decathlon.fr",
+        "period": "Jun 2024 - Aoû 2024",
+        "type": "CDD",
+        "description": "Conseiller et vendeur randonnée - camping pour l'été 2024.",
+        "skills": [
+            "Relation client",
+            "Vente",
+            "Mise en rayon et facing",
+            "Facing"
+        ]
+    },
+    {
+        "company": "N7RT",
+        "role": "Membre et Trésorier",
+        "period": "Nov 2023 - Aoû 2025",
+        "type": "Bénévolat",
+        "description": "Développement et création d'une mono-place étudiante, pôle Data. Trésorier 2024 - 2025, gestion des comptes et réalisation de devis.",
+        "skills": [
+            "Initiation systèmes embarqués",
+            "Travail d'équipe",
+            "Gestion d'association"
+        ]
+    },
+    {
+        "company": "Photo7",
+        "url": "https://photo7.inpt.fr",
+        "role": "Membre et Trésorier",
+        "period": "Nov 2023 - Maintenant",
+        "type": "Bénévolat",
+        "description": "Couverture photographique d'évènements divers et traitement photos. Trésorier 2024 - 2025, gestion des comptes et réalisation de devis.",
+        "skills": [
+            "Utilisation matériel photographique",
+            "Retouches photos",
+            "Travail d'équipe",
+            "Gestion d'association"
+        ]
+    },
+    {
+        "company": "ENSEEIHT",
+        "url": "https://enseeiht.fr",
+        "role": "Diplôme d'ingénieur informatique & télécommunications",
+        "period": "Sep 2023 - Sep 2027",
+        "type": "Etudiant",
+        "description": "Spécialisation en génie logiciel.",
+        "skills": [
+            "Web",
+            "Algorithmes",
+            "POO",
+            "Agiles"
+        ]
+    }
 ]
