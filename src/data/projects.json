@@ -19,22 +19,23 @@
         "category": "Projet scolaire"
     },
     {
-        "title": "Demo Mobile App",
-        "description": "A high-performance mobile application built with modern frameworks to showcase technical expertise.",
+        "title": "Circuit Mapper",
+        "description": "Application web type Yelp pour renseigner des circuits. Server Express, authentification, architecutre MVC, tempalting EJS, db et cloud Mongo.",
         "images": [
-            "astro-02.jpeg",
+            "circuitmapper.png",
+            "circuitmapper-circuit.png",
             "#"
         ],
         "tech": [
-            "Flutter",
-            "Dart",
+            "Express",
+            "Javascript",
+            "MongoDB",
             "REST API"
         ],
         "platforms": [
-            "apple-ios",
-            "android"
+            "web"
         ],
-        "link": "https://github.com/nbakh16/career-portfolio-template",
-        "category": "Hobby"
+        "link": "https://github.com/GSablayrolles/Circuit-Mapper",
+        "category": "Published App"
     }
 ]
