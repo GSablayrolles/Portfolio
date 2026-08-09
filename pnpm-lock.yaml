@@ -32,6 +32,9 @@ importers:
       '@iconify-json/skill-icons':
         specifier: ^1.2.3
         version: 1.2.4
+      '@iconify-json/thesvg-color':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@tailwindcss/vite':
         specifier: ^4.2.0
         version: 4.3.3(vite@7.3.6(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.32.0)(yaml@2.9.0))
@@ -482,6 +485,9 @@ packages:
 
   '@iconify-json/skill-icons@1.2.4':
     resolution: {integrity: sha512-S6iRKHGlGCb/zfx3Isv1TBe5PunbDE5FEwJcaXji60+yRZMrcFFtYEI1xivKqaGKXyVZ508yjGDItsehQdJmSg==}
+
+  '@iconify-json/thesvg-color@1.2.1':
+    resolution: {integrity: sha512-+LPIECkUjrhqGtCaPs5hRevz21raYuIuDhmIsc36j7EkYtUq/fptpkB5mHtCvQtT4PIm/sdORcpisue/B//oDA==}
 
   '@iconify/tools@4.2.0':
     resolution: {integrity: sha512-WRxPva/ipxYkqZd1+CkEAQmd86dQmrwH0vwK89gmp2Kh2WyyVw57XbPng0NehP3x4V1LzLsXUneP1uMfTMZmUA==}
@@ -2696,6 +2702,10 @@ snapshots:
       '@iconify/types': 2.0.0
 
   '@iconify-json/skill-icons@1.2.4':
+    dependencies:
+      '@iconify/types': 2.0.0
+
+  '@iconify-json/thesvg-color@1.2.1':
     dependencies:
       '@iconify/types': 2.0.0
 
