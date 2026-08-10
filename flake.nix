@@ -41,6 +41,7 @@
           src = ./.;
 
           nativeBuildInputs = [
+            pnpm
             nodejs
             pnpmConfigHook
           ];
