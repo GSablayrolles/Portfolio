@@ -11,6 +11,7 @@
       self,
       nixpkgs,
       flake-utils,
+
     }:
     flake-utils.lib.eachDefaultSystem (
       system:
@@ -18,6 +19,8 @@
         pkgs = nixpkgs.legacyPackages.${system};
         nodejs = pkgs.nodejs;
         pnpm = pkgs.pnpm;
+        fetchPnpmDeps = pkgs.fetchPnpmDeps;
+        pnpmConfigHook = pkgs.pnpmConfigHook;
       in
       {
         devShells.default = pkgs.mkShell {
@@ -39,13 +42,13 @@
 
           nativeBuildInputs = [
             nodejs
-            pnpm.configHook
+            pnpmConfigHook
           ];
 
-          pnpmDeps = pnpm.fetchDeps {
+          pnpmDeps = fetchPnpmDeps {
             inherit (finalAttrs) pname version src;
             fetcherVersion = 4;
-            hash = "sha256-6eAoyjBHP6oWu1qwUz4UjhUwmooXFPpopKOncjfHNv0=";
+            hash = "sha256-29I1peID8iNwSLiedpOLEXltGrC+cjzHntNuZzSLfdA=";
           };
 
           buildPhase = ''
