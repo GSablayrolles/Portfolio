@@ -12,21 +12,21 @@
     "socials": [
         {
             "name": "GitHub",
-            "url": "https://github.com/[YOUR_USER_NAME]",
+            "url": "https://github.com/GSablayrolles",
             "icon": "mdi:github",
             "label": "View Profile",
             "showInContact": true
         },
         {
             "name": "LinkedIn",
-            "url": "https://linkedin.com/in/[YOUR_USER_NAME]",
+            "url": "https://linkedin.com/in/guillaume-sablayrolles",
             "icon": "mdi:linkedin",
             "label": "Connect",
             "showInContact": true
         },
         {
             "name": "Email",
-            "url": "mailto:your-mail@example.com",
+            "url": "mailto:g.sablayrolles@proton.me",
             "icon": "mdi:email",
             "label": "Send Email",
             "showInContact": true
